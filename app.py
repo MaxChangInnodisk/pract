@@ -1,4 +1,4 @@
 from datetime import datetime
-
-print("Hello")
+from func import get_my_name
+print("Hello", get_my_name())
 print(datetime.now())
